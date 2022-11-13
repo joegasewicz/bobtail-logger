@@ -1,3 +1,5 @@
+[![Python package](https://github.com/joegasewicz/bobtail-logger/actions/workflows/python-package.yml/badge.svg)](https://github.com/joegasewicz/bobtail-logger/actions/workflows/python-package.yml)
+[![Upload Python Package](https://github.com/joegasewicz/bobtail-logger/actions/workflows/python-publish.yml/badge.svg)](https://github.com/joegasewicz/bobtail-logger/actions/workflows/python-publish.yml)
 # Bobtail Logger
 Logging middleware for Bobtail
 
@@ -10,7 +12,7 @@ pip install bobtail-logger
 ```python
 ### Usage
 ```python
-from bobttail_logger import BobtailLogger
+from bobtail_logger import BobtailLogger
 
 app = Bobtail(routes=routes)
 app.use(BobtailLogger())

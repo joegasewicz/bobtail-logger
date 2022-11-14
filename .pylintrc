@@ -15,3 +15,4 @@ confidence=
 # no Warning level messages displayed, use "--disable=all --enable=classes
 # --disable=W".
 disable=too-few-public-methods,
+    invalid-name,
